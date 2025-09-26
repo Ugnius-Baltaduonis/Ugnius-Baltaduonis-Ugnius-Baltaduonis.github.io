@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ugnius Baltaduonis</title>
+    <link>https://ugnius-baltaduonis.github.io/</link>
+    <description>Recent content on Ugnius Baltaduonis</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Sep 2025 11:25:43 +0300</lastBuildDate>
+    <atom:link href="https://ugnius-baltaduonis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kietaspuslapis</title>
+      <link>https://ugnius-baltaduonis.github.io/posts/kietaspuslapis/</link>
+      <pubDate>Fri, 26 Sep 2025 11:25:43 +0300</pubDate>
+      <guid>https://ugnius-baltaduonis.github.io/posts/kietaspuslapis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
