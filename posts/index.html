@@ -172,6 +172,57 @@
         <div class="posts-list">
           
             <article class="post-preview">
+    <a href="https://ugnius-baltaduonis.github.io/posts/bub/">
+        <h2 class="post-title">Bub</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on September 26, 2025
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <p><img src="/man.png" alt="games"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span>        <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> CrashBSOD()
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">//BSOD</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">            [DllImport(&#34;ntdll.dll&#34;, SetLastError = true)]</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">extern</span> <span style="color:#66d9ef">uint</span> NtRaiseHardError(<span style="color:#66d9ef">uint</span> ErrorStatus, <span style="color:#66d9ef">uint</span> NumberOfParameters, IntPtr UnicodeStringParameterMask, IntPtr Parameters, <span style="color:#66d9ef">uint</span> ResponseOption, <span style="color:#66d9ef">out</span> <span style="color:#66d9ef">uint</span> Response);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">
+</span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">            [DllImport(&#34;ntdll.dll&#34;, SetLastError = true)]</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">extern</span> <span style="color:#66d9ef">void</span> RtlAdjustPrivilege(<span style="color:#66d9ef">int</span> Privilege, <span style="color:#66d9ef">bool</span> Enable, <span style="color:#66d9ef">bool</span> CurrentThread, <span style="color:#66d9ef">out</span> <span style="color:#66d9ef">bool</span> Enabled);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">bool</span> enabled;
+</span></span><span style="display:flex;"><span>            RtlAdjustPrivilege(<span style="color:#ae81ff">19</span>, <span style="color:#66d9ef">true</span>, <span style="color:#66d9ef">false</span>, <span style="color:#66d9ef">out</span> enabled);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">uint</span> response;
+</span></span><span style="display:flex;"><span>            NtRaiseHardError(<span style="color:#ae81ff">0xC000007B</span>, <span style="color:#ae81ff">0</span>, IntPtr.Zero, IntPtr.Zero, <span style="color:#ae81ff">6</span>, <span style="color:#66d9ef">out</span> response);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">/////////////////////////////////////////////////////////////////////////////</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span></code></pre></div>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="https://ugnius-baltaduonis.github.io/posts/kietaspuslapis/">
         <h2 class="post-title">Kietaspuslapis</h2>
         

@@ -12,7 +12,24 @@
  
 
 
-  <script type="application/ld+json">
+      <title>Bub - </title>
+
+  <meta name="description" content="
+        private void CrashBSOD()
+        {
+            //BSOD
+            [DllImport(&#34;ntdll.dll&#34;, SetLastError = true)]
+            static extern uint NtRaiseHardError(uint ErrorStatus, uint NumberOfParameters, IntPtr UnicodeStringParameterMask, IntPtr Parameters, uint ResponseOption, out uint Response);
+
+            [DllImport(&#34;ntdll.dll&#34;, SetLastError = true)]
+            static extern void RtlAdjustPrivilege(int Privilege, bool Enable, bool CurrentThread, out bool Enabled);
+            bool enabled;
+            RtlAdjustPrivilege(19, true, false, out enabled);
+            uint response;
+            NtRaiseHardError(0xC000007B, 0, IntPtr.Zero, IntPtr.Zero, 6, out response);
+            /////////////////////////////////////////////////////////////////////////////
+        }
+"><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -32,13 +49,84 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/ugnius-baltaduonis.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/ugnius-baltaduonis.github.io\/posts\/bub\/",
+          "name": "Bub"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : ""
+  },
+  "headline": "Bub",
+  "description" : "\nprivate void CrashBSOD() { \/\/BSOD [DllImport(\u0026#34;ntdll.dll\u0026#34;, SetLastError = true)] static extern uint NtRaiseHardError(uint ErrorStatus, uint NumberOfParameters, IntPtr UnicodeStringParameterMask, IntPtr Parameters, uint ResponseOption, out uint Response); [DllImport(\u0026#34;ntdll.dll\u0026#34;, SetLastError = true)] static extern void RtlAdjustPrivilege(int Privilege, bool Enable, bool CurrentThread, out bool Enabled); bool enabled; RtlAdjustPrivilege(19, true, false, out enabled); uint response; NtRaiseHardError(0xC000007B, 0, IntPtr.Zero, IntPtr.Zero, 6, out response); \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ } ",
+  "inLanguage" : "en",
+  "wordCount":  59 ,
+  "datePublished" : "2025-09-26T11:42:12\u002b03:00",
+  "dateModified" : "2025-09-26T11:42:12\u002b03:00",
+  "image" : "https:\/\/ugnius-baltaduonis.github.io\/",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/ugnius-baltaduonis.github.io\/posts\/bub\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/ugnius-baltaduonis.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/ugnius-baltaduonis.github.io\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Ugnius Baltaduonis" />
-<meta property="og:url" content="https://ugnius-baltaduonis.github.io/" />
+
+<meta property="og:title" content="Bub" />
+<meta property="og:description" content="
+        private void CrashBSOD()
+        {
+            //BSOD
+            [DllImport(&#34;ntdll.dll&#34;, SetLastError = true)]
+            static extern uint NtRaiseHardError(uint ErrorStatus, uint NumberOfParameters, IntPtr UnicodeStringParameterMask, IntPtr Parameters, uint ResponseOption, out uint Response);
+
+            [DllImport(&#34;ntdll.dll&#34;, SetLastError = true)]
+            static extern void RtlAdjustPrivilege(int Privilege, bool Enable, bool CurrentThread, out bool Enabled);
+            bool enabled;
+            RtlAdjustPrivilege(19, true, false, out enabled);
+            uint response;
+            NtRaiseHardError(0xC000007B, 0, IntPtr.Zero, IntPtr.Zero, 6, out response);
+            /////////////////////////////////////////////////////////////////////////////
+        }
+">
+<meta property="og:url" content="https://ugnius-baltaduonis.github.io/posts/bub/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Ugnius Baltaduonis" />
 
-  <meta name="twitter:title" content="Ugnius Baltaduonis" />
+  <meta name="twitter:title" content="Bub" />
+  <meta name="twitter:description" content="
+        private void CrashBSOD()
+        {
+            //BSOD
+            [DllImport(&#34;ntdll.dll&#34;, SetLastError = true)]
+            static extern uint NtRaiseHardError(uint ErrorStatus, uint …">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="Hugo 0.150.1">
   <link rel="alternate" href="https://ugnius-baltaduonis.github.io/index.xml" type="application/rss+xml" title="Ugnius Baltaduonis"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
@@ -145,9 +233,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
+            <div class="posts-heading">
               
-                <h1>Ugnius Baltaduonis</h1>
+                <h1>Bub</h1>
               
               
                 <hr class="small">
@@ -164,42 +252,10 @@
 
 
     
-  <div role="main" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-
-        <div class="posts-list">
-          
-          
-            <article class="post-preview">
-    <a href="https://ugnius-baltaduonis.github.io/posts/bub/">
-        <h2 class="post-title">Bub</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on September 26, 2025
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
         <p><img src="/man.png" alt="games"></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span>        <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> CrashBSOD()
 </span></span><span style="display:flex;"><span>        {
@@ -216,65 +272,33 @@
 </span></span><span style="display:flex;"><span>            <span style="color:#75715e">/////////////////////////////////////////////////////////////////////////////</span>
 </span></span><span style="display:flex;"><span>        }
 </span></span></code></pre></div>
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://ugnius-baltaduonis.github.io/posts/kietaspuslapis/">
-        <h2 class="post-title">Kietaspuslapis</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on September 26, 2025
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        
-        
-    </div>
-
-    
-
-</article>
-          
-        </div>
 
         
-      </div>
-    </div>
-  </div>
+
+        
+
+        
+      </article>
 
       
-    <div class="page-meta">
-  
-  
-  
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://ugnius-baltaduonis.github.io/posts/kietaspuslapis/" data-toggle="tooltip" data-placement="top" title="Kietaspuslapis">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
 </div>
 
-
-  <footer>
+      <footer>
   <div class="container">
     
     <div class="row">
